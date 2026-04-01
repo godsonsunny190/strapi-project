@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_dynamic_zone_ctas",
+  "info": {
+    "displayName": "CTA"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "targrt": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "Primary"
+      ]
+    }
+  },
+  "config": {}
+}
