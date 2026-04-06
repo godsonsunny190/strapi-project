@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_forms",
+  "info": {
+    "displayName": "Form"
+  },
+  "options": {},
+  "attributes": {
+    "inputs": {
+      "type": "component",
+      "component": "items.input",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

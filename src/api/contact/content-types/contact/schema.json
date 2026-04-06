@@ -1,22 +1,19 @@
 {
   "kind": "collectionType",
-  "collectionName": "pages",
+  "collectionName": "contacts",
   "info": {
-    "singularName": "page",
-    "pluralName": "pages",
-    "displayName": "Pages"
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "slug": {
-      "type": "uid"
-    },
     "form": {
       "type": "component",
-      "component": "shared.form",
+      "component": "items.input",
       "repeatable": true
     }
   }

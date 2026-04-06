@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_dynamic_zone_form_next_to_sections",
+  "info": {
+    "displayName": "Form_Next_To_Section"
+  },
+  "options": {},
+  "attributes": {
+    "form": {
+      "type": "component",
+      "component": "shared.form",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
