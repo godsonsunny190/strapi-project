@@ -29,6 +29,11 @@
     },
     "slug": {
       "type": "string"
+    },
+    "imagetext": {
+      "type": "component",
+      "component": "block.image-content-block",
+      "repeatable": true
     }
   }
 }

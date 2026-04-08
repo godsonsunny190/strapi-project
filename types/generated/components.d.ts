@@ -1,5 +1,19 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface BlockImageContentBlock extends Struct.ComponentSchema {
+  collectionName: 'components_block_image_content_blocks';
+  info: {
+    displayName: 'ImageContentBlock';
+  };
+  attributes: {
+    image: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    text: Schema.Attribute.String;
+  };
+}
+
 export interface DynamicZoneCta extends Struct.ComponentSchema {
   collectionName: 'components_dynamic_zone_ctas';
   info: {
@@ -122,6 +136,7 @@ export interface SharedLink extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'block.image-content-block': BlockImageContentBlock;
       'dynamic-zone.cta': DynamicZoneCta;
       'dynamic-zone.form-next-to-section': DynamicZoneFormNextToSection;
       'dynamic-zone.hero': DynamicZoneHero;

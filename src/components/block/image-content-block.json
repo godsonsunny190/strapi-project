@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_block_image_content_blocks",
+  "info": {
+    "displayName": "ImageContentBlock"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}
